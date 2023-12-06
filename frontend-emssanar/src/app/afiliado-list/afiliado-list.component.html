@@ -1,0 +1,17 @@
+<div class="afiliados-list">
+    <h2>Lista de Afiliados</h2>
+    <ul>
+      <li *ngFor="let afiliado of afiliados" class="afiliado-item">
+        <div class="afiliado-info">
+          <span class="afiliado-property">Nombre:</span> {{ afiliado.name }}<br>
+          <span class="afiliado-property">Edad:</span> {{ afiliado.edad }}<br>
+          <span class="afiliado-property">Identificación:</span> {{ afiliado.identificacion }}<br>
+          <span class="afiliado-property">Género:</span> {{ afiliado.genero }}<br>
+          <span class="afiliado-property">Dirección:</span> {{ afiliado.direccion }}<br>
+          <span class="afiliado-property">Teléfono:</span> {{ afiliado.telefono }}<br>
+          <span class="afiliado-property">Fecha de Nacimiento:</span> {{ afiliado.fechaNacimiento }}
+        </div>
+      </li>
+    </ul>
+  </div>
+  

@@ -1,0 +1,38 @@
+/* Estilos para el formulario de creación de afiliados */
+.crear-afiliado {
+    margin-top: 20px;
+  }
+  
+  /* Estilos para cada grupo de campos del formulario */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Estilos para las etiquetas de los campos */
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para los campos de entrada del formulario */
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos para el botón de enviar del formulario */
+  form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Cambio de color al pasar el ratón sobre el botón */
+  form button:hover {
+    background-color: #45a049;
+  }
+  

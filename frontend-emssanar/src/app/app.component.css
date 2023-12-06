@@ -1,0 +1,33 @@
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Estilos para la lista de navegación */
+  .nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Estilos para cada elemento de la lista de navegación */
+  .nav-item {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  /* Estilos para los enlaces de navegación */
+  .nav-item a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  /* Cambio de color al pasar el ratón sobre los enlaces */
+  .nav-item a:hover {
+    color: #FFD700; /* Cambia a tu color deseado al pasar el ratón */
+  }
